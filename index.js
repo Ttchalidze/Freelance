@@ -78,8 +78,8 @@ function render() {
     <th>Rate</th>
     </tr>
     <table>
-    <div id="freelancer-container"></div>
+    <FreelanceCards></FreelanceCards>
   `;
-  $app.querySelector("#freelancer-container").replaceWith(FreelanceCardS());
+  $app.querySelector("FreelanceCards").replaceWith(FreelanceCardS());
 }
 render();
